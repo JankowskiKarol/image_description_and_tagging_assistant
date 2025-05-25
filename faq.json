@@ -1,0 +1,17 @@
+[
+    {"question": "How can I reduce the size of an image?", "answer": "Use the PIL library and the `thumbnail` function."},
+    {"question": "How does image analysis work?", "answer": "Image analysis detects objects and generates descriptions."},
+    {"question": "Can I upload an image for analysis?", "answer": "Yes, you can upload an image for analysis."},
+    {"question": "What file formats are supported?", "answer": "Supported formats are JPG, JPEG, and PNG."},
+    {"question": "Can I upload more than one image?", "answer": "The current version supports only one image at a time."},
+    {"question": "What information does the image analysis return?", "answer": "The result includes textual descriptions and tags with confidence scores."},
+    {"question": "Can I use my own AI model to improve the description?", "answer": "Not in this version. The program uses the GPT-4o-mini model to enhance the description."},
+    {"question": "What are image tags?", "answer": "Tags are keywords describing the image content, e.g., 'cat', 'tree', 'building'."},
+    {"question": "Are the data sent to the cloud?", "answer": "Yes, the image is sent to the Azure and OpenAI APIs for analysis and description generation."},
+    {"question": "Why am I not receiving a description of the image?", "answer": "Check if the uploaded file is a valid image and if you have an active internet connection."},
+    {"question": "What are the limitations of the analysis?", "answer": "The limitation is the model's accuracy — the description may be imprecise for unusual images."},
+    {"question": "Can I process images locally without using the API?", "answer": "Not in the current version — processing is done in the cloud using Azure and OpenAI."},
+    {"question": "How can I add my own questions to the FAQ?", "answer": "Edit the JSON file and add new questions as objects with 'question' and 'answer' keys. In the current version, users are not allowed to do this."},
+    {"question": "Does the app remember my question history?", "answer": "No, the app does not store the history of questions or images."},
+    {"question": "Can I change the LLM model to another one?", "answer": "In the current version, users cannot change the model."}
+]
