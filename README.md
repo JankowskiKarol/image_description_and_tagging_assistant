@@ -23,8 +23,8 @@ A demonstration project combining the capabilities of Microsoft Azure (Computer 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/twoj_login/azure-openai-vision-app.git
-   cd azure-openai-vision-app
+   git clone https://github.com/JankowskiKarol/image_description_and_tagging_assistant
+   cd image_description_and_tagging_assistant
    ```
 
 2. Install dependencies:
