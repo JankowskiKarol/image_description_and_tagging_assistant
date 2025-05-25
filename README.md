@@ -36,7 +36,7 @@ A demonstration project combining the capabilities of Microsoft Azure (Computer 
 3. Set access credentials (e.g., via .env or environment variables):
 
    ```bash
-   export AZURE_API_KEY="your_azure_key"
+   export AZURE_KEY="your_azure_key"
    export AZURE_ENDPOINT="your_endpoint"
    export OPENAI_API_KEY="your_openai_key"
    ```
